@@ -4,7 +4,7 @@
  - This is on of my website for developing
  
  ## partnership website's
- - <a href="https://www.shoaiybsysa.ga/"><img src="/assets/images/shoaiybsysa.png" alt="shoaiyb sysa" target="_blank"></a>
+ - <a href="https://www.shoaiybsysa.ga/"><img src="/assets/images/favicon.webp" alt="shoaiyb sysa" target="_blank"></a>
 
 ###  my website is
 - AMP-ready
