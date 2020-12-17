@@ -14,7 +14,7 @@ baseurl: '/'
 email: 'support@shoaiybsysa.ga'
 google_analytics: '' # Google Analytics Tracking ID
 gtm: '' # Google Tag Manager ID
-cse_id:  # Google Custom Search Engine ID
+cse_id: 08841ffe3e869140f # Google Custom Search Engine ID
 adsense: '' # Google Adsense ID
 disqus: '' # Disqus shortname
 amp_disqus_url: '' #baseurl of your AMP disqus iframe element
@@ -34,7 +34,7 @@ authors:
     email: contact@shoaiybsysa.ga
     web: https://www.shoaiybsysa.ga/
     facebook: https://www.facebook.com/realshoaiyb
-    description: I'm shoaiyb sysa wanna learn to code with me?
+    description: Im shoaiyb sysa wanna learn to code with me?
 
 # Plugins
 plugins: 
