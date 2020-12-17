@@ -14,7 +14,7 @@ baseurl: '/'
 email: 'support@shoaiybsysa.ga'
 google_analytics: '' # Google Analytics Tracking ID
 gtm: '' # Google Tag Manager ID
-cse_id: # Google Custom Search Engine ID
+cse_id: dd8988a912f56fe9f # Google Custom Search Engine ID
 adsense: '' # Google Adsense ID
 disqus: 'shoaiyb' # Disqus shortname
 amp_disqus_url: 'https://dev.shoaiybsysa.ga/disqus-amp.html' #baseurl of your AMP disqus iframe element
