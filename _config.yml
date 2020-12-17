@@ -17,7 +17,7 @@ gtm: '' # Google Tag Manager ID
 cse_id: 08841ffe3e869140f # Google Custom Search Engine ID
 adsense: '' # Google Adsense ID
 disqus: 'shoaiyb' # Disqus shortname
-amp_disqus_url: '' #baseurl of your AMP disqus iframe element
+amp_disqus_url: 'https://dev.shoaiybsysa.ga/disqus-amp.html' #baseurl of your AMP disqus iframe element
 addthis:  #AddThis
 buyme:  #buymecoffe
 sidebar:
