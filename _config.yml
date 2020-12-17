@@ -1,0 +1,123 @@
+# Site
+name: "AMP Affiliately Jekyll Theme"
+title: "AMP Affiliately Jekyll Theme"
+description: "An AMP-ready Jekyll blog theme"
+meta_description: "An AMP-ready Jekyll blog theme"
+url: https://chriskyfung.github.io
+logo: 'assets/images/logo-plainSVG.svg'
+favicon: 'assets/images/favicon.png'
+paginate: 6
+paginate_path: "/blog/page:num/"
+permalink: /blog/:year/:month/:day/:title
+timezone: 'Asia/Hong_Kong'
+baseurl: '/amp-affiliately-jekyll-theme'
+email: ''
+google_analytics: 'UA-72575541-9' # Google Analytics Tracking ID
+gtm: 'GTM-WQMQK3X' # Google Tag Manager ID
+cse_id: 011006674894885990812:tjln7k0nyjx # Google Custom Search Engine ID
+adsense: 'ca-pub-4819282024314540' # Google Adsense ID
+disqus: 'chriskyfung' # Disqus shortname
+amp_disqus_url: 'https://chriskyfung.gitlab.io/disqus-amp/q.html' #baseurl of your AMP disqus iframe element
+addthis: ra-5d01c83d522ad580
+buyme: chriskyfung
+sidebar:
+  featured: true
+  recent_posts: true
+repository: chriskyfung/amp-affiliately-jekyll-theme #<USERNAME>/<PROJECT>
+
+# Authors
+authors:
+  John:
+    name: John Washer
+    display_name: John
+    gravatar: 
+    email: 
+    web: 
+    facebook: https://www.facebook.com/
+    description: 
+  Peter:
+    name: Peter Mu
+    display_name: Peter
+    gravatar: 
+    email: 
+    web: 
+    facebook: https://www.facebook.com/
+    description: 
+  Peter:
+    name: Sal
+    display_name: Sal
+    gravatar: 
+    email: 
+    web: 
+    facebook: https://www.facebook.com/
+    description: 
+
+# Plugins
+plugins: 
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-loading-lazy
+  - jekyll-webp
+  - jekyll-gzip
+  - jekyll-redirect-from
+  - jekyll-github-metadata
+        
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: archive
+  permalinks: 
+    category: '/category/:name/'
+    tag: '/tag/:name/'
+
+# Other
+markdown: kramdown
+highlighter: rouge
+environment: production
+
+jekyll-minifier:
+  exclude: 'feed.xml' # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
+
+
+############################################################
+# Site configuration for the WebP Generator Plugin
+# The values here represent the defaults if nothing is set
+webp:
+  enabled: true
+  
+  # The quality of the webp conversion 0 to 100 (where 100 is least lossy)
+  quality: 75
+
+  # List of directories containing images to optimize, nested directories will only be checked if `nested` is true
+  # By default the generator will search for a folder called `/img` under the site root and process all jpg, png and tiff image files found there.
+  img_dir: ["/images/", "/assets/images"]
+
+  # Whether to search in nested directories or not
+  nested: true
+
+  # add ".gif" to the format list to generate webp for animated gifs as well
+  formats: [".jpeg", ".jpg", ".png", ".tiff"]
+
+  # File extensions for animated gif files 
+  gifs: [".gif"]
+
+  # Set to true to always regenerate existing webp files
+  regenerate: false
+
+  # Local path to the WebP utilities to use (relative or absolute)
+  # Omit or leave as nil to use the utilities shipped with the gem, override only to use your local install
+  webp_path: nil
+
+  # List of files or directories to excludes
+  # e.g. custom or hand generated webp conversion files
+  exclude: []
+
+  # append '.webp' to filename after original extension rather than replacing it.
+  # Default transforms `image.png` to `image.webp`, while changing to true transforms `image.png` to `image.png.webp`
+  append_ext: false
+############################################################
