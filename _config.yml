@@ -1,56 +1,41 @@
 # Site
-name: "AMP Affiliately Jekyll Theme"
-title: "AMP Affiliately Jekyll Theme"
-description: "An AMP-ready Jekyll blog theme"
-meta_description: "An AMP-ready Jekyll blog theme"
-url: https://chriskyfung.github.io
-logo: 'assets/images/logo-plainSVG.svg'
+name: "shoaiyb sysa"
+title: "Dev"
+description: "I'm shoaiyb sysa wanna learn to code with me?"
+meta_description: "I'm shoaiyb sysa wanna learn to code with me?"
+url: https://dev.shoaiybsysa.ga
+logo: 'assets/images/logo.svg'
 favicon: 'assets/images/favicon.png'
 paginate: 6
 paginate_path: "/blog/page:num/"
-permalink: /blog/:year/:month/:day/:title
+permalink: /blog/:title/
 timezone: 'Asia/Hong_Kong'
-baseurl: '/amp-affiliately-jekyll-theme'
-email: ''
-google_analytics: 'UA-72575541-9' # Google Analytics Tracking ID
-gtm: 'GTM-WQMQK3X' # Google Tag Manager ID
-cse_id: 011006674894885990812:tjln7k0nyjx # Google Custom Search Engine ID
-adsense: 'ca-pub-4819282024314540' # Google Adsense ID
-disqus: 'chriskyfung' # Disqus shortname
-amp_disqus_url: 'https://chriskyfung.gitlab.io/disqus-amp/q.html' #baseurl of your AMP disqus iframe element
-addthis: ra-5d01c83d522ad580
-buyme: chriskyfung
+baseurl: ''
+email: 'support@shoaiybsysa.ga'
+google_analytics: '' # Google Analytics Tracking ID
+gtm: '' # Google Tag Manager ID
+cse_id:  # Google Custom Search Engine ID
+adsense: '' # Google Adsense ID
+disqus: 'shoaiyb' # Disqus shortname
+amp_disqus_url: 'https://dev.shoaiybsysa.ga/disqus-amp.html' #baseurl of your AMP disqus iframe element
+addthis: 
+buyme: 
 sidebar:
   featured: true
   recent_posts: true
-repository: chriskyfung/amp-affiliately-jekyll-theme #<USERNAME>/<PROJECT>
+repository: shoaiyb/shoaiyb.github.io #<USERNAME>/<PROJECT>
 
 # Authors
 authors:
-  John:
-    name: John Washer
-    display_name: John
+  shoaiyb sysa:
+    name: shoaiyb sysa
+    display_name: shoaiyb sysa
     gravatar: 
-    email: 
-    web: 
-    facebook: https://www.facebook.com/
-    description: 
-  Peter:
-    name: Peter Mu
-    display_name: Peter
-    gravatar: 
-    email: 
-    web: 
-    facebook: https://www.facebook.com/
-    description: 
-  Peter:
-    name: Sal
-    display_name: Sal
-    gravatar: 
-    email: 
-    web: 
-    facebook: https://www.facebook.com/
-    description: 
+    email: contact@shoaiybsysa.ga
+    web: https://www.shoaiybsysa.ga/
+    facebook: https://www.facebook.com/realshoaiyb/
+    description: Im shoaiyb sysa wanna learn to code with me?
+ 
 
 # Plugins
 plugins: 
