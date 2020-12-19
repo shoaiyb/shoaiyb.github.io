@@ -1,6 +1,6 @@
 # Site
 name: "shoaiyb sysa"
-title: "Dev"
+title: "Dev | shoaiyb sysa"
 description: "I'm shoaiyb sysa wanna learn to code with me?"
 meta_description: "I'm shoaiyb sysa wanna learn to code with me?"
 url: https://dev.shoaiybsysa.ga
@@ -9,7 +9,7 @@ favicon: 'assets/images/favicon.png'
 paginate: 6
 paginate_path: "/blog/page:num/"
 permalink: /blog/:title/
-timezone: 'Asia/Hong_Kong'
+timezone: 'America/New_York'
 baseurl: ''
 email: 'support@shoaiybsysa.ga'
 google_analytics: '' # Google Analytics Tracking ID
