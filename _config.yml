@@ -49,6 +49,7 @@ plugins:
   - jekyll-gzip
   - jekyll-redirect-from
   - jekyll-github-metadata
+  - amp-jekyll
         
 # Archives
 jekyll-archives:
