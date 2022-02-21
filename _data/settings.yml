@@ -1,14 +1,14 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross
+title: Shoaiyb Sysa
 logo: 
-author: themefisher
-description: this is meta description
-email: steve.fruits@email.com
-phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
-copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
+author: Shoaiyb Sysa
+description: "I'm a computer science student, web designer/developer and domain broker."
+email: shoaiybsysa@gmail.com
+phone: +234 7034 5909 59
+address: 346, Tudun Yola GRA, Kano, Nigeria
+copyright: Copyright &copy; 2022 Shoaiyb Sysa
 
 menu:
 - {name: About, link: '/about'}
@@ -31,20 +31,20 @@ google-analytics: # UA-XXXXXX-X
 #-------------------------------
 # Comment Section (Disqus)
 
-disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
+disqus-identifier: shoaiyb # Add your shortname for Disqus Comment. For example mr-brown
 
 
 #-------------------------------
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title: Hi! I’m <br> Shoaiyb <br> Domain reseller
 
 social:
-- {icon: "ti-facebook", link: "#"}
-- {icon: "ti-instagram", link: "#"}
-- {icon: "ti-dribbble", link: "#"}
-- {icon: "ti-twitter", link: "#"}
+- {icon: "ti-github", link: "https://github.com/shoaiyb"}
+- {icon: "ti-instagram", link: "https://instagram.com/shoaiybsysa"}
+#- {icon: "ti-dribbble", link: "#"}
+- {icon: "ti-twitter", link: "https://twitter.com/ShoaiybSysa"}
 
 
 #-------------------------------
